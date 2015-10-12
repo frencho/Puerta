@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Puerta Automatica</title>
+        <meta charset="utf-8">
+        <link href="Estilos/estilos.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <script src="Funciones/funsion.js"></script>
+        <!--<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>-->
+    </head>
+    <body>
+        <aside id="hamburger">
+            <ul>
+                <div id="divisor"></div>
+                <div id="divisor"></div>
+                <li onclick="acerca()">Acerca de...</li>
+                <div id="divisor"></div>
+                <li onclick="hola()">Maś</li>
+                <div id="divisor"></div>
+                <li onclick="hola()">Opciones</li>
+                <div id="divisor"></div>
+                <div id="divisor"></div>
+            </ul>
+        </aside>
+        
+        <div id="acercaDe">
+            <div>
+                <img src="Imagenes/pp.jpg">
+            </div>
+            <h5>Efrén Pacheco Sánchez<br>Versión 0.1</h5>
+        </div>
+        
+        <div id="menu">
+            <button onclick="menu()">
+                <img src="Imagenes/Hamburger.png">
+            </button>
+        </div>
+    
+        <div id="abrir" onclick="cerrarMenu()">
+            <h1>ABRIR</h1>
+            <button id="btnAbrir" onclick="abrir()" id="boton">
+                <img src="Imagenes/Open.png">
+            </button>
+        </div>
+
+        <div id="cerrar" onclick="cerrarMenu()">
+            <h1>CERRAR</h1>
+            <button id="btnCerrar" onclick="cerrar()" id="boton">
+                <img src="Imagenes/Close.png">
+            </button>
+        </div>
+    </body>
+</html>
